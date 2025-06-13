@@ -13,6 +13,9 @@ This Streamlit application allows you to download and stitch together high-resol
   * **Direct Download**: Easily download the generated map as a PNG image.
   * **Unique Caching**: Tiles are saved with unique names based on the map and zoom level, preventing conflicts and improving performance for repeat downloads.
 
+
+ ![DayZ Map Downloader Screenshot](src\screenshot-1.png)
+
 -----
 
 ## How it Works ⚙️
