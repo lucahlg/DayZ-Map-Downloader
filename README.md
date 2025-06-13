@@ -7,7 +7,7 @@ This Streamlit application allows you to download and stitch together high-resol
 ## Features ✨
 
   * **Multiple Map Support**: Select from various DayZ maps like ChernarusPlus and Livonia, including both topographical and satellite views.
-  * **Adjustable Zoom Levels**: Choose your desired zoom level to control the detail and resolution of the generated map.
+  * **Adjustable resolution**: Choose your desired resolution of the generated map between 7 different levels.
   * **Tile Downloading with Progress**: Downloads individual map tiles efficiently, skipping already downloaded tiles and showing a progress bar.
   * **Seamless Tile Stitching**: Automatically combines all downloaded tiles into a single, large image.
   * **Direct Download**: Easily download the generated map as a PNG image.
@@ -22,7 +22,7 @@ This Streamlit application allows you to download and stitch together high-resol
 
 The application functions by:
 
-1.  **Selecting Map Parameters**: You choose the desired map (e.g., ChernarusPlus-Top), its version, and the zoom level from the sidebar.
+1.  **Selecting Map Parameters**: You choose the desired map (e.g., ChernarusPlus-Top), its version, and the resolution level from the sidebar.
 2.  **Downloading Tiles**: The app connects to `maps.izurvive.com` to download individual map tiles based on your selections. It stores these tiles locally in a `tiles/` directory.
 3.  **Stitching Images**: Once all tiles are downloaded, the application stitches them together into a single, large image.
 4.  **Display & Download**: The final stitched map is displayed in the application, and you're provided with a button to download it.
