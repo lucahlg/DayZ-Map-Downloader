@@ -194,4 +194,5 @@ if 'map_image' in st.session_state:
     )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("Developed from the user's script.")
+# give credit to https://dayz.ginfo.gg/about/ (iSurvive) for the map data
+st.sidebar.markdown("Map data provided by [iSurvive DayZ](https://dayz.ginfo.gg/about/).")
